@@ -26,9 +26,10 @@
             android:title="Plane" />
     </group>
 
-    <group android:checkableBehavior="single">
-        <item android:title="Profile">
-            <menu>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_login"
                     android:icon="@drawable/ic_login"
@@ -41,9 +42,10 @@
                     android:id="@+id/nav_logout"
                     android:icon="@drawable/ic_logout"
                     android:title="Logout" />
-            </menu>
-        </item>
-    </group>
+            </group>
+        </menu>
+    </item>
+
 
     <item android:title="Communicate">
         <menu>
